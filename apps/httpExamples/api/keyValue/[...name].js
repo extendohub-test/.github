@@ -1,5 +1,5 @@
-export default async ({ events, helpers, log }) => {
-  const { request, response } = events.payload
+export default async ({ api, helpers, log }) => {
+  const { request, response } = api
   const handler = handlers[request.method]
   return handler ? handler(request, response, { helpers, log }) : { ...response, status: 404 }
 }
