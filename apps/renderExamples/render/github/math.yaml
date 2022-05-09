@@ -1,5 +1,5 @@
 name: Math equation rendering
-description: Render math equations found in markdown
+description: Render math equations found in markdown 
 
 render:
   markdown:
