@@ -1,4 +1,0 @@
-name: vercel-settings install
-description: Installation of the vercel-settings app
-installation:
-  uses: apps://vercel-settings@v1.0

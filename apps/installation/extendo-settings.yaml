@@ -1,5 +1,0 @@
-name: extendo-settings install
-description: Installation of the extendo-settings app
-
-installation:
-  uses: apps://extendo-settings@v1.0
